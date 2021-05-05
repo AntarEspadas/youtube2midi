@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from os.path import dirname, join
 
-VERSION = '0.1.1'
+VERSION = '0.1.1.post1'
 DESCRIPTION = "A Python module with a small cli, used to automatically download a Synthesia piano tutorial from a YouTube URL and convert it to a MIDI file."
 
 try:
@@ -15,7 +15,7 @@ setup(
     name="youtube2midi",
     license="MIT",
     url="https://github.com/Naratna/youtube2midi",
-    download_url="https://github.com/Naratna/youtube2midi/archive/refs/tags/v0.1.1.tar.gz",
+    download_url=f"https://github.com/Naratna/youtube2midi/archive/refs/tags/v{VERSION}.tar.gz",
     version=VERSION,
     author="Naratna",
     description=DESCRIPTION,
