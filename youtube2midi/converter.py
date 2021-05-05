@@ -11,12 +11,12 @@ MASK88 = join(dirname(__file__), "syn2midi", "mask88.bmp")
 
 def download_and_convert(youtube_url: str, mask_path: str = MASK88, output_name: str = None, start_time: int = None, end_time: int = None, transpose: int = 0, additional_arguments: List[str] = [], keep_video: bool = False) -> None:
     """
-    Download a Synesthesia piano tutorial from YouTube and convert it to MIDI format.
+    Download a Synthesia piano tutorial from YouTube and convert it to MIDI format.
 
     Parameters
     ----------
     youtube_url: str
-        The YouTube URL for a Synesthesia piano tutorial.
+        The YouTube URL for a Synthesia piano tutorial.
     mask_path: str
         Path to a BMP image file to be used as mask.
     output_name: str

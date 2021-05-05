@@ -1,6 +1,6 @@
 # youtube2midi
 
-A Python module with a small cli, used to automatically download a Synesthesia piano tutorial from a YouTube URL and convert it to a MIDI file. It uses [youtube-dl](https://github.com/ytdl-org/youtube-dl) and [syn2midi](https://github.com/minyor/syn2midi).
+A Python module with a small cli, used to automatically download a Synthesia piano tutorial from a YouTube URL and convert it to a MIDI file. It uses [youtube-dl](https://github.com/ytdl-org/youtube-dl) and [syn2midi](https://github.com/minyor/syn2midi).
 
 ## Installation
 
@@ -40,7 +40,7 @@ Command line reference:
 youtube2midi [-h] [-o OUTPUT] [-m MASK] [-t TRANSPOSE] [-s START] [-e END] [-k] url
 
 positional arguments:
-  url                   URL to a Synesthesia youtube video
+  url                   URL to a Synthesia youtube video
 
 optional arguments:
   -h, --help            show this help message and exit

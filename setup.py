@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from os.path import dirname, join
 
 VERSION = '0.1.1'
-DESCRIPTION = "A Python module with a small cli, used to automatically download a Synesthesia piano tutorial from a YouTube URL and convert it to a MIDI file."
+DESCRIPTION = "A Python module with a small cli, used to automatically download a Synthesia piano tutorial from a YouTube URL and convert it to a MIDI file."
 
 try:
     with open(join(dirname(__file__), "README.md")) as readme:

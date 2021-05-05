@@ -27,10 +27,10 @@ def _seconds(timestamp: str):
 
 def _get_parser() -> ArgumentParser:
     parser = ArgumentParser(
-        description="Download a Synesthesia video from YouTube and convert it to a MIDI file")
+        description="Download a Synthesia video from YouTube and convert it to a MIDI file")
 
     parser.add_argument(
-        "url", type=str, help="URL to a Synesthesia YouTube video")
+        "url", type=str, help="URL to a Synthesia YouTube video")
 
     parser.add_argument("-o", "--output", type=str,
                         default=None, help="Name of output MIDI file")
