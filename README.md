@@ -18,19 +18,19 @@ Or from source by cloning the repo and running the command
 
 The CLI has two possible entry points
 
-`$ syn2midi`
+`$ youtube2midi`
 
 and
 
-`$ python -m syn2midi`
+`$ python -m youtube2midi`
 
 Example uses:
 
-`$ syn2midi https://www.youtube.com/watch?v=0hhMl2W7F8U`
+`$ youtube2midi https://www.youtube.com/watch?v=0hhMl2W7F8U`
 
-`$ syn2midi https://www.youtube.com/watch?v=0hhMl2W7F8U -s 0:05 -e 3:35`
+`$ youtube2midi https://www.youtube.com/watch?v=0hhMl2W7F8U -s 0:05 -e 3:35`
 
-`$ syn2midi https://www.youtube.com/watch?v=0hhMl2W7F8U -o rickroll.mid -m "path/to/my/custom/mask/file.bmp"`
+`$ youtube2midi https://www.youtube.com/watch?v=0hhMl2W7F8U -o rickroll.mid -m "path/to/my/custom/mask/file.bmp"`
 
 Some pre-made masks can be found in the package folder, `syn2midi/mask.bmp ` and `syn2midi/mask88.bmp`
 
