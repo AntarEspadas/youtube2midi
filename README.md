@@ -51,8 +51,8 @@ optional arguments:
                         transpose notes shift, can be negative. 0 is default
   -s START, --start START
                         Start timestamp for video in the form mm:ss
-  -e END, --end END     End timestamp for video in the from mm:ss
-  -k, --keep-video      End timestamp for video in the from mm:ss
+  -e END, --end END     End timestamp for video in the form mm:ss
+  -k, --keep-video      Keep the downloaded YouTube video instead of deleting it when done
 ```
 
 ### Python module

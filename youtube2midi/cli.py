@@ -47,7 +47,7 @@ def _get_parser() -> ArgumentParser:
                         help=f"Start timestamp for video in the form {form}")
 
     parser.add_argument("-e", "--end", type=str, default=None,
-                        help=f"End timestamp for video in the from {form}")
+                        help=f"End timestamp for video in the form {form}")
 
     parser.add_argument("-k", "--keep-video", action="store_true", dest="keep",
                         help=f"Keep the downloaded YouTube video instead of deleting it when done")
