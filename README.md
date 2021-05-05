@@ -32,7 +32,7 @@ Example uses:
 
 `$ youtube2midi https://www.youtube.com/watch?v=0hhMl2W7F8U -o rickroll.mid -m "path/to/my/custom/mask/file.bmp"`
 
-Some pre-made masks can be found in the package folder, `syn2midi/mask.bmp ` and `syn2midi/mask88.bmp`
+Some pre-made masks can be found in the package folder, `syn2midi/mask.bmp` and `syn2midi/mask88.bmp`
 
 Command line reference:
 
