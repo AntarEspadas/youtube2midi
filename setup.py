@@ -20,6 +20,7 @@ setup(
     author="Naratna",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="markdown",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
