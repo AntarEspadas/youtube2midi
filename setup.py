@@ -13,6 +13,9 @@ except Exception:
 
 setup(
     name="youtube2midi",
+    license="MIT",
+    url="https://github.com/Naratna/youtube2midi",
+    download_url="https://github.com/Naratna/youtube2midi/archive/refs/tags/v0.1.0.tar.gz",
     version=VERSION,
     author="Naratna",
     description=DESCRIPTION,
