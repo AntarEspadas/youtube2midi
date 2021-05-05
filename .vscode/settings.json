@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex"
+    ]
+}
